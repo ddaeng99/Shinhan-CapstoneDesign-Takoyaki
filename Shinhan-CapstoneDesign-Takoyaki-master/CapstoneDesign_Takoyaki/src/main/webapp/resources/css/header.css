@@ -1,0 +1,175 @@
+@charset "EUC-KR";
+
+body {
+   margin: 1rem;
+}
+
+ul,
+li {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: #666666;
+}
+
+.navbar {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #FFFFFF;
+   padding: 8px 12px;
+}
+
+.navbar_logo a {
+   color: #F59A12;
+   font-family: 'Noto Sans KR', sans-serif;
+   font-size: 2.4rem;
+   font-weight: 800;
+}
+
+.name {
+   margin: 5px;
+   position: relative;
+   top: -0.5rem;
+}
+
+.search_form {
+   margin-left: -4rem;
+}
+
+.search_form #search {
+   width: 30rem;
+   height: 2.1rem;
+   position: relative;
+   border-radius: 0.3rem;
+   background: #FFFFFF;
+   border-style: solid;
+   border-color: #F59A12;
+
+}
+
+.search_form #searchBtn {
+   width: 2.4rem;
+   height: 2.4rem;
+   position: relative;
+   align-items: center;
+   background-color: #F59A12;
+   border: 2px #F59A12;
+   border-radius: 0.3rem;
+   cursor: pointer;
+}
+
+.fa-solid {
+   color: #FFFFFF;
+   position: relative;
+   align-items: center;
+}
+
+.navbar_login a {
+   display: flex;
+   position: absolute;
+   font-size: 1rem;
+   font-weight: 600;
+   color: #F59A12;
+   font-family: 'Noto Sans KR', sans-serif;
+   white-space: nowrap;
+}
+.navbar_menu a.selected {
+  color: #F59A12; 
+}
+
+.navbar_menu a {
+  color: #666666; 
+  border-bottom: .15rem solid transparent; 
+  text-decoration: none; 
+  padding: 10px; 
+}
+
+.navbar_login {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 7.9rem;
+   height: 2.5rem;
+   border: 1.5px solid #F59A12;
+   border-radius: 0.5rem;
+   background-color: #FFFFFF;
+
+}
+
+.navmenu {
+   display: flex;
+   justify-content: center;
+   background-color: #FFFFFF;
+   margin: 0 auto;
+   font-size: 1.3rem;
+   font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar_menu {
+   display: flex;
+   justify-content: center;
+   list-style: none;
+   padding-left: 0;
+   margin-bottom: 1rem;
+}
+
+.navbar_menu li {
+   margin-left: 1rem;
+   padding-right: 3rem;
+   font-size: 1.1rem;
+   font-family: 'Noto Sans KR', sans-serif;
+   font-weight: 800;
+}
+
+
+.navbar_menu a:hover {
+   color: #F59A12;
+   border-style: solid;
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   padding-bottom: 1.4rem;
+}
+
+.userNameDrp-content {
+    display: none;
+    position: absolute;
+    width: 120px;
+  }
+
+  /* .userNameDrp:hover .userNameDrp-content {
+    display: block;
+  } */
+
+  .userNameDrp #userID{
+   font-size: 1.6rem;
+   font-weight: 600;
+   color: #F59A12;
+   font-family: 'Noto Sans KR', sans-serif;
+    padding: none;
+    background-color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .userNameDrp-content a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #666666;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .userNameDrp-content ul {
+    display: block;
+    padding: 0%;
+    padding-left: 10%;
+    margin-top: 5px;
+    
+  }
+  
+    .userNameDrp-content li {
+    margin-bottom: 5px;
+    
+  }

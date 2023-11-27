@@ -1,0 +1,209 @@
+body {
+	margin: 1rem;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #666666;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #FFFFFF;
+	padding: 8px 12px;
+}
+
+.navbar_logo a {
+	color: #F59A12;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 2.4rem;
+	font-weight: 800;
+
+}
+
+.navbar_logo .name {
+	margin: 5px;
+	position: relative;
+	top: -0.5rem;
+}
+
+
+
+.search_form {
+	margin-left: -4rem;
+}
+
+.search_form #search {
+	width: 30rem;
+	height: 2.1rem;
+	position: relative;
+	border-radius: 0.3rem;
+	background: #FFFFFF;
+	border-style: solid;
+	border-color: #F59A12;
+
+}
+
+.search_form #searchBtn {
+	width: 2.4rem;
+	height: 2.4rem;
+	position: relative;
+	align-items: center;
+	background-color: #F59A12;
+	border: 2px #F59A12;
+	border-radius: 0.3rem;
+}
+
+.fa-solid {
+	color: #FFFFFF;
+	position: relative;
+	align-items: center;
+}
+
+.navbar_login a {
+	display: flex;
+	position: absolute;
+	align-items: center;
+	justify-content: center;
+	font-size: 1rem;
+	font-weight: 600;
+	color: #F59A12;
+	font-family: 'Noto Sans KR', sans-serif;
+	white-space: nowrap;
+}
+
+.navbar_login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 7.9rem;
+	height: 2.5rem;
+	border: 1.5px solid #F59A12;
+	border-radius: 0.5rem;
+	background-color: #FFFFFF;
+
+}
+
+.navmenu {
+	display: flex;
+	justify-content: center;
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	font-size: 1.3rem;
+}
+
+.navbar_menu {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 1rem;
+}
+
+.navbar_menu li {
+	margin-left: 1rem;
+	padding-right: 3rem;
+	font-size: 1.1rem;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 800;
+}
+
+.navbar_menu a:hover {
+	color: #F59A12;
+	border-style: solid;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding-bottom: 1.4rem;
+}
+
+[name="slide"] {
+	display: none;
+}
+
+#login h1 {
+	color: #F59A12;
+	text-align: center;
+	margin-top: 5%;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 900;
+}
+
+.p {
+	text-align: center;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.naverLogin #naverImg {
+	width: 100%;
+}
+
+#login-form > input[type="checkbox"]{
+    display: none;
+}
+#login-form > label{
+    color: #999999;
+}
+#login-form input[type="checkbox"] + label{
+    cursor: pointer;
+    padding-left: 26px;
+    background-image: url("checkbox.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#login-form input[type="checkbox"]:checked + label{
+    background-image: url("checkbox-active.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.login-wrapper{
+    margin: 0 auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+#login-form > input{
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box ;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+    border-style: none;
+}
+#login-form > input::placeholder{
+    color: #545e6f;
+}
+#login-form > input[type="submit"]{
+    color: #fff;
+    font-size: 16px;
+    background-color: #F59A12;
+    /* margin-top: 20px; */
+    border-style: none;
+}
+
+.login-wrapper li{
+    display: inline-block;
+    height: 12px; line-height: 12px;
+    font-size: small;
+    margin-left: 29%;
+}
+.login-wrapper li:last-child{
+    border-left: 1px solid #545e6f;
+    padding-left: 10px; /* 테두리 안쪽 여백 */
+    margin-left: 4px; /* 테두리 바깥쪽 여백 */
+}

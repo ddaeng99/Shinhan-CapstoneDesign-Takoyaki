@@ -1,0 +1,168 @@
+body {
+        padding: 0;
+        margin: 1rem;
+    }
+
+    .yello {
+        color: #f59a12;
+    }
+
+    .wrap {
+        background-color: #F8F8F8;
+    }
+
+    .favoriteContainer {
+        padding: 21px 16px;
+        background-color: white;
+        margin-bottom: 10px;
+        margin-left:22%;
+        margin-right:22%;
+    }
+
+    .favoriteContainer .title {
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .favoriteContainer .status {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 21px;
+    }
+
+    .favoriteContainer .number {
+        font-size: 31px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .favoriteContainer .text {
+        font-size: 12px;
+        font-weight: normal;
+        color: #c2c2c2;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+    .listContainer {
+        padding: 0;
+        background-color: #ffffff;
+        margin-bottom: 10px;
+        
+    }
+
+    .listContainer .item {
+        
+        align-items: center;
+        padding: 16px;
+        color: black;
+        text-decoration: none;
+        height: 56px;
+        box-sizing: border-box;
+    }
+    .container {
+ 
+        font-weight: 580;
+        
+    }
+
+    .result-item {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 0.6em;
+        
+        
+        
+    }
+
+    .result-title {
+        font-weight: bold;
+    }
+   .titlePlusGroup{
+       display: flex;
+       justify-content: space-between; /* 내부 요소 간 공간을 최대화 */
+       align-items: center; /* 수직 가운데 정렬 */
+       margin-top: 10%;
+       white-space: nowrap;
+   }
+   .plus{
+      margin-left:82%;
+   }
+.deleteBookMark {
+     background-color: #F59A12;
+     color: white; 
+     padding: 5px 10px; /* 여백을 조정하여 버튼 크기를 줄임 */
+     border: none; 
+     border-radius: 5px; 
+     cursor: pointer; 
+   }
+
+
+   .deleteBookMark:hover {
+      background-color: #F8822C;
+   }
+   
+   
+   
+   .favoritemore{
+     background-color: #F59A12;
+     color: white; 
+     padding: 5px 10px; /* 여백을 조정하여 버튼 크기를 줄임 */
+     border: none; 
+     border-radius: 5px; 
+     cursor: pointer; 
+     float:right 
+   
+   }
+   
+   .favoritemore:hover {
+      background-color: #F8822C;
+   }
+   
+   
+   
+   .favorclose{
+   background-color: #F59A12;
+     color: white; 
+     padding: 5px 10px; /* 여백을 조정하여 버튼 크기를 줄임 */
+     border: none; 
+     border-radius: 5px; 
+     cursor: pointer; 
+     float:right
+   }
+   
+   .favorclose:hover {
+      background-color: #F8822C;
+   }
+   
+   
+   .alterButton{
+      background-color: #F59A12;
+        color: white; 
+        padding: 5px 10px; /* 여백을 조정하여 버튼 크기를 줄임 */
+        border: none; 
+        border-radius: 5px; 
+        cursor: pointer; 
+        float:right;
+      margin-left: 10px;
+      margin-top:3%;
+   }
+   .alterButton:hover {
+      background-color: #F8822C;
+   }
+   .title{
+      color:#F59A12;
+   }
+   .plus {
+    margin-left: auto; /* 맨 오른쪽에 고정 */
+    
+}
+
+  
+

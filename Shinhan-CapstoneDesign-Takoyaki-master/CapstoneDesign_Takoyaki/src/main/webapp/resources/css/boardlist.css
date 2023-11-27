@@ -1,0 +1,198 @@
+/*기본 구조 만들기*/
+/*
+.board_view{
+    width: 100%;
+    border-top: 2px solid #F59A12;
+    font-size: 1.4rem;
+}
+.board_view .title{
+    padding: 20px 15px;
+    border-bottom: 1px solid #ddd;
+    font-size: 2rem;
+}
+.board_view .info{
+    padding: 15px;
+    border-bottom: 1px solid #999;
+    font-size: 0;
+}
+.board_view .cont{
+    padding: 15px;
+    border-bottom: 2px solid #F59A12;
+    line-height: 160%;
+    font-size: 1.4rem;
+}
+*/
+/*info 설정*/
+/*
+.board_view .info dl{
+    display: inline-block;
+    padding: 0 20px;
+    position: relative;
+}
+.board_view .info dl:first-child{
+    padding-left: 0;
+}
+.board_view .info dl::before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    display: block;
+    width: 1px;
+    height: 13px;
+    background-color: #ddd;
+}
+.board_view .info dl:first-child::before{
+    display: none;
+}
+.board_view .info dl dd,
+.board_view .info dl dt{
+    display: inline-block;
+    font-size: 1.4rem;
+}
+.board_view .info dl dd{
+    margin-left: 10px;
+    color: #777;
+}
+.bt_wrap a:nth-child(1){
+    margin-left: 0;
+}
+.bt_wrap a.on {
+    background-color: #F59A12;
+    color: #fff;
+}
+.bt_wrap a {
+    display: inline-block;
+    min-width: 80px;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid #F59A12;
+    border-radius: 2px;
+    font-size: 1.4rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.bt_wrap {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0;
+}
+*/
+
+
+
+
+
+
+
+html{
+	width: 100%;
+}
+
+thead{
+	margin: 50px;
+}
+thead>th{
+	background-color:#F7F7F7; 
+	text-align:center;
+}
+
+.container{
+	margin-top: 50px;
+}
+.table{
+		width: 100%;
+		text-align:center;
+		border : 1px solid #666666; 
+}
+
+.row_t{
+	height: 50px;
+	text-align: center;
+	border-top:1px solid #ebebeb;
+	position: relative;
+}
+
+.row_s{
+	height: 50px;
+	text-align: center;
+	border-top:1px solid #ebebeb;
+	position: relative;
+}
+
+
+.title_s>td {
+	width: 100%;
+}
+.title_s > * {
+  height: 100%;
+}
+
+
+.row_t>td{
+	font-size: 18px;
+	padding: 5px;	
+}
+
+.row_s>td{
+	font-size: 18px;
+	padding: 5px;
+	border: 1px solid #ebebeb;	
+}
+.title_s{
+	width: 50%; 
+ 	position: absolute; 
+  	left: 50%; 
+  	transform: translateX(-50%);
+  	top: 8px;
+}
+.date{
+	width: 8%;
+	margin-right: 10px;
+}
+.writer{
+	width: 8%;
+	margin-right: 10px;
+}
+
+.content_s{
+	height: 500px;
+	border: 1px solid #ebebeb;
+	border-radius: 8px;
+	width: 100%;
+}
+.content{
+	height: 500px;
+	border: 1px solid #ebebeb;
+	border-radius: 8px;
+}
+.row>content {
+	width : 100%;
+}
+.submit_write{
+			display: inline-block;
+		}
+.btn-primary{
+			float: right;
+			text-align:center;
+			width :70px;
+			height: 30px;
+			font-size : 16px;
+			border : 1px solid #fff;
+			border-radius: 8px;
+			font-family: 'Noto Sans KR', sans-serif;
+			cursor: pointer;
+			color : #fff;
+			background-color : #F59A12; 
+		}		
+		
+.btn-primary:hover{
+			color : #F59A12;
+			 background-color: white;
+			 border : 1px solid #999999;
+}
+		
+		
+
